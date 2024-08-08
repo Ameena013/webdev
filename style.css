@@ -1,0 +1,138 @@
+
+.bg-offwhite {
+    background-color:antiquewhite; 
+}
+
+
+.ml-auto {
+    margin-left: auto;
+}
+
+
+.btn-custom {
+    border: 2px solid; 
+    border-radius: 0.25rem; 
+}
+
+
+.btn-outline-dark {
+    color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-orange {
+    background-color: #fd7e14; 
+    color: rgb(127, 47, 47);
+    border-color: #fd7e14;
+}
+
+.btn-orange:hover {
+    background-color: #e06c00; 
+    border-color: #e06c00;
+}
+
+.intro {
+    background: black;
+    text-align: left;
+    justify-content: center;
+}
+
+.intro .intro-content {
+    display: flex;
+    justify-content: center;
+}
+.text-content{
+    background-image: url(./assets/60a274aef27b4c0019444d00.webp);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    color: rgb(0, 0, 0);
+}
+
+.intro .intro-content img {
+    max-width: 50%;
+    height: auto;
+    margin-right:20px;
+    margin: 20%;
+}
+
+.Service {
+    padding: 50px 0;  
+    background-color: antiquewhite;
+}
+
+ 
+.center {
+    text-align: center;  
+}
+
+ 
+.card-container {
+    display: flex;
+    justify-content: space-around;  
+    flex-wrap: wrap;  
+    gap: 20px; 
+    margin-top: 30px; 
+}
+
+ 
+.card {
+    background: #fff;   
+    border: 1px solid #ddd;  
+    border-radius: 8px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: calc(25% - 20px); 
+    max-width: 300px;  
+}
+
+ 
+.card-body {
+    padding: 20px;  
+}
+
+ 
+.card-title {
+    font-size: 1.25rem;  
+    margin-bottom: 15px;  
+}
+
+.card-text {
+    font-size: 1rem; 
+    line-height: 1.5;  
+}
+
+ 
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px);  
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: 100%;  
+    }
+}
+
+.card1 {
+    width: 100%;
+}
+.card1 img {
+    border-radius: 100%;
+    object-fit: cover;
+}
+.second-card1 .row {
+    flex-direction: row-reverse;
+}
+.second-card1 img {
+    max-width: 100px; /* Adjust the size as needed */
+    height: auto;
+}
+
+
+
+
